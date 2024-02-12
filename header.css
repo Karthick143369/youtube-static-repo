@@ -1,0 +1,131 @@
+.flex-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  height: 60px;
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  background-color: white;
+  z-index: 100;
+  /* border-bottom-width: 1px;
+  border-bottom-color:rgb(183, 176, 176);
+  border-bottom-style: solid; */
+
+  
+
+
+}
+.left-section{
+  display: flex;
+  align-items: center;
+  flex :1;
+}
+.middle-section{
+  display: flex;
+  align-items: center;
+  flex :2;
+  margin-left: 50px;
+ margin-right: 20px;
+}
+.right-section{
+  flex :1;
+
+}
+.Search-bar{
+    height: 35px;
+    border: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 20px;
+    padding-left: 30px;
+    /* width: 450px; */
+    width: 100%;
+
+
+}
+.Search-bar::placeholder{
+font-size:15px;
+color: #a8a0a0;
+
+}
+.youtube-logo{
+  height: 40px;
+  margin-left: 20px;
+}
+.menu-icon{
+  height: 15px;
+  margin-left: 40px;
+
+}
+.mic-button{
+  width: 50px;
+    height: 40px;
+    border-style: none;
+    border-radius: 20px;
+    margin-left: 15px;
+    padding-top: 3px;
+}
+.mic-icon{
+  height: 17px;
+  margin-top: 3px;
+}
+.search-button{
+  width: 65px;
+  border: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  height: 39px;
+  color:#f8f8f8;
+  border-top-right-radius: 21px;
+  border-bottom-right-radius: 21px;
+  margin-left: -23px;
+  padding: 0;
+
+}
+.search-icon{
+  height: 15px;
+}
+.right-section{
+  display:flex;
+  justify-content: right;
+
+}
+.creater-img{
+  height: 30px;
+
+}
+.notification-center{
+  height: 20px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 3px;
+
+}
+.login-user{
+  height: 30px;
+  margin-right: 50px;
+  border-radius: 14px;
+
+  }
+  .notification-center-section{
+    position: relative;
+  }
+  .notification-center-count{
+    position: absolute;
+    background-color: #c80e0e;
+    color: white;
+    height: 15px;
+    font-size: 12px;
+    border-radius: 15px;
+    top: 0px;
+    right: 15px;
+    width: 16px;
+    padding-left: 3px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+
+  }
